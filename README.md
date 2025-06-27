@@ -176,6 +176,72 @@ WHERE latitude BETWEEN 42.3736 - 0.5 AND 42.3736 + 0.5
   AND longitude BETWEEN -71.1189 - 0.5 AND -71.1189 + 0.5
 ORDER BY price ASC;
 ```
+## 📊 Key Findings
+1. Price Categorization
+
+* Most listings fall into the budget and mid-range categories (below $200).
+
+* Only a small portion of listings are classified as luxury (>$500).
+
+2. Top Reviewed Listings by Neighborhood
+
+* The highest-reviewed listings in each neighborhood were identified.
+
+* These listings can serve as benchmarks for popularity and guest satisfaction.
+
+3. Most Expensive Listings
+
+* The top 5 listings by price were extracted.
+
+* These listings are mostly concentrated in premium neighborhoods and offer unique room types.
+
+4. Neighborhood Insights
+
+* Neighborhoods with the highest listing counts include areas with central access or tourist appeal.
+
+* Average prices vary significantly by neighborhood, indicating location-based pricing trends.
+
+5. Availability Analysis
+
+* Listings were labeled as having high or low availability based on their neighborhood average.
+
+* This reveals which listings are over- or under-utilized within their local market.
+
+6. Cumulative Pricing
+
+* Cumulative sum of prices within each neighborhood helps track overall market size and pricing tiers.
+
+7. Top Hosts
+
+* Hosts with more than 10 listings were identified.
+
+* The total number of reviews per host gives an idea of their engagement and popularity.
+
+
+8. Room Type Distribution
+
+* Entire homes/apartments dominate the market.
+
+ 
+* Private rooms are the next most common, with shared rooms making up a small fraction
+
+
+
+9. Value Listings
+
+* Identified listings with full-year availability and prices under $100 — ideal for budget-conscious long-term guests.
+  
+  
+10. Most Engaged Neighborhoods
+
+* Top neighborhoods by average number of reviews per listing suggest higher guest traffic and engagement.
+
+11. Proximity to Harvard Square
+
+* 0.5° radius query revealed listings near Harvard Square, helping in location-based accommodation targeting.
+
+
+
 ## Conclusion
 This project successfully demonstrated how SQL can uncover actionable insights from Airbnb data. Key findings included the distribution of price categories, identification of high-performing hosts, and availability trends. Such insights could be valuable to both Airbnb and hosts for pricing strategies, customer engagement, and market segmentation.
 
