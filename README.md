@@ -40,12 +40,16 @@ CREATE TABLE airbnb_listings (
 
      ```sql
          SELECT COUNT(*) FROM airbnb_listings;
-
+```
+```sql
     SELECT COUNT(DISTINCT id) FROM airbnb_listings;
-
+```
+```sql
     SELECT * FROM airbnb_listings
     WHERE latitude NOT BETWEEN -90 AND 90
      OR longitude NOT BETWEEN -180 AND 180;
+```
+```sql
    
      SELECT * FROM airbnb_listings
     WHERE availability_365 > 365 OR availability_365 < 0;
@@ -172,7 +176,7 @@ WHERE latitude BETWEEN 42.3736 - 0.5 AND 42.3736 + 0.5
   AND longitude BETWEEN -71.1189 - 0.5 AND -71.1189 + 0.5
 ORDER BY price ASC;
 ```
-##Conclusion
+## Conclusion
 This project successfully demonstrated how SQL can uncover actionable insights from Airbnb data. Key findings included the distribution of price categories, identification of high-performing hosts, and availability trends. Such insights could be valuable to both Airbnb and hosts for pricing strategies, customer engagement, and market segmentation.
 
 
