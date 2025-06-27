@@ -50,10 +50,10 @@ CREATE TABLE airbnb_listings (
      OR longitude NOT BETWEEN -180 AND 180;
 ```
 ```sql
-   
      SELECT * FROM airbnb_listings
     WHERE availability_365 > 365 OR availability_365 < 0;
-    ```
+```
+
 ### Data Analysis and Findings
 1. Categorize listings by price range 
 ```sql
