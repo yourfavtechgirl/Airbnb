@@ -38,7 +38,7 @@ CREATE TABLE airbnb_listings (
    *  Validate Latitude and Longitude Ranges
    * Check for Listings with Invalid Availability (more than 365 days)
 
-     ```sql
+ ```sql
          SELECT COUNT(*) FROM airbnb_listings;
 ```
 ```sql
